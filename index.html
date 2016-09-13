@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    
+    
+<link rel="stylesheet" href="CSS/style.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+<body>
+
+<!--Top blue bar-->
+<div class="row" id='topRight'>
+    <div class='container'>
+        <div class="col-sm-12">
+                <span style="font-weight:bold">MINI of Raleigh</span>
+                <a href="#"><img src="Assets/question-mark-icon.png"></a>
+                <a href="#"><img src="Assets/settings-icon.png"></a>
+        </div>
+    </div>
+</div>
+    
+<!--Main Icon Navbar-->
+    <div class='container-fluid'>
+    <div class="row" >
+        <div class="col-sm-12" id="iconRow">
+            <div id='iconGroup' id='icons'>
+                <img src="Assets/menuIcons/dashboard-green.png" id='icons' onmouseover="this.src='Assets/menuIcons/dashboard-blue.png';" onmouseout="this.src='Assets/menuIcons/dashboard-green.png';">
+                
+                <img src="Assets/menuIcons/profile-green-3.png" id='icons' onmouseover="this.src='Assets/menuIcons/profile-blue-3.png';" onmouseout="this.src='Assets/menuIcons/profile-green-3.png';">
+                
+                <img src="Assets/menuIcons/message-green.png" id='icons' onmouseover="this.src='Assets/menuIcons/message-blue.png';" onmouseout="this.src='Assets/menuIcons/message-green.png';">
+                
+                <img src="Assets/menuIcons/tag-green.png" id='icons' onmouseover="this.src='Assets/menuIcons/tag-blue.png';" onmouseout="this.src='Assets/menuIcons/tag-green.png';">
+                
+                <img src="Assets/menuIcons/page-green.png" id='icons' onmouseover="this.src='Assets/menuIcons/page-blue.png';" onmouseout="this.src='Assets/menuIcons/page-green.png';">
+                
+                <img src="Assets/menuIcons/bar-green.png" id='icons' onmouseover="this.src='Assets/menuIcons/bar-blue.png';" onmouseout="this.src='Assets/menuIcons/bar-green.png';">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+<!--Dashboard & Search-->
+    <div class='container' style="text-align:center">
+        <div class='row' id='dashBox' >
+            <div class='col-xs-6'>
+                <h2 id='white'>Dashboard</h1>
+            </div>
+            
+            <div class='col-xs-6' id='search'>
+                    <input type="search" id="searchbar"/>
+                    <img src='Assets/search-icon.png'>
+            </div>
+    
+        </div>
+    </div>
+    
+<!--    Body content-->
+    <div class='container'>
+        <div id="bodyContentBorder">
+            <div id='bodyContent'>
+                <div class ='row' id=>
+                    <div class='col-sm-3' id='announcements' id='borderRight'>
+                        <p style="color:orange" id='border'>
+                            ANNOUNCEMENTS
+                        </p>
+                    </div>
+                    <div class='col-sm-8' id='announcements2'>
+                        <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+                    </div>
+                    <div class='col-sm-1' id='announcements3'>
+                        <a href='#'><img src="Assets/Button_%20Navigation_%20Small-1.png"></a>
+                        <a href='#'><img src="Assets/Button_%20Navigation_%20Small.png"></a>
+                    </div>
+                </div>
+                    <div class="col-sm-4" id='tasks'>
+                      <div class='row' id='tasks'>
+                        <div class="row" id=task1>
+                            <div class='col-xs-9'>
+                                <h3>Tasks</h3>
+                            </div> 
+                            <div class='col-xs-3' id='gear'>
+                                <a href='#'><img src="Assets/settings.png"></a>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/1-gray.png'>
+                            </div>
+
+                            <div class='col-xs-8'>
+                                <p id='welcomeContacts'>Welcome Contacts</p>
+                            </div>
+                            <div class='col-xs-2' id='count'>
+                                <a href='#'><img src='Assets/welcome-contacts-count.png'></a>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/2-green.png'>
+                            </div>
+
+                            <div class='col-xs-8'>
+                                <a href='#'><p>Provide Responses</p></a>
+                            </div>
+                            <div class='col-xs-2' id='count'>
+                                <img src='Assets/provide-responses-count.png'>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/3-green.png'>
+                            </div>
+
+                            <div class='col-xs-8'>
+                                <a href="3"><p>Review Activity</p></a>
+                            </div>
+                            <div class='col-xs-2' id='count'>
+                                <img src='Assets/review-activity-count.png'>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/4-green.png'>
+                            </div>
+                            <div class='col-xs-8'>
+                                <a href='#'><p>Reach Out</p></a>
+                            </div>
+                            <div class='col-xs-2' id='count'>
+                                <img src='Assets/reach-out-count.png'>
+                            </div>
+                        </div>
+
+                        
+                      </div>
+     <!--                          Recommendations-->
+                            <h3>Recommendations</h3>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/increase-traction.png'>
+                            </div>
+                            <div class='col-xs-10' id='rec'>
+                                <p id='tiny'>Article</p>
+                                <p>7 Steps to getting more fans</p>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/increase-traction.png'>
+                            </div>
+                            <div class='col-xs-10' id='rec'>
+                                <p id='tiny'>Article</p>
+                                <p>Increase traction with more interactions</p>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/creating-promotion.png'>
+                            </div>
+                            <div class='col-xs-10' id='rec'>
+                                <p id='tiny'>Checklist</p>
+                                <p>Creating a Promotion</p>
+                            </div>
+                        </div>
+                        <div class="row" id='taskRow'>
+                            <div class='col-xs-2'>
+                                <img src='Assets/increase-traction.png'>
+                            </div>
+                            <div class='col-xs-10' id='rec'>
+                                <p id='tiny'>Tip</p>
+                                <p>Share More</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-8" id='analyticsBox'>
+<!--                    <div class='container'>-->
+                        <div class='row'>
+                            <h3>Analytics</h3>
+                        </div>
+                      
+                      <div class='row'>
+                        <div class='col-xs-10'>
+                            <div class='row'>
+                                <div class='col-xs-6'>
+                                    <p style="color:grey; padding-top:5px">ACTIVITY</p>
+                                </div>
+                                <div class='col-xs-6'>
+                                    <select id="dropdown">
+                                        <option>06/28/11 - 07/21/11</option>
+                                        <option>07/28/11 - 08/21/11</option>
+                                        <option>08/28/11 - 09/21/11</option>
+                                        <option>09/28/11 - 10/21/11</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="Assets/graph.png">
+                            </div>
+                        </div>
+                        <div class='col-xs-2' id="piecharts">
+                            <p>CHANNELS</p>
+                            <img src="Assets/Pie%20Graph.png">
+                            <p>REFERRALS</p>
+                            <img src="Assets/Pie%20Graph.png">
+                        </div>
+                    </div>
+                    <div class="row" id='socialBox'>
+                        <div id="social"> 
+                            <input type="checkbox" name="facebook" checked="checked"/> <label for="facebook"><div id="facebook">Facebook</div></label>
+                        </div>
+                        <div id="social">
+                            <input type="checkbox" name="twitter" checked="checked" />
+                            <label for="twitt"><div id="twitter">Twitter</div></label>
+                            </div>
+                        <div id="social">
+                            <input type="checkbox" name="foursquare" />
+                            <label for="foursq"><div id="foursquare">Foursquare</div></label>
+                        </div>
+                        <div id="social">
+                            <input type="checkbox" name="facebook" />
+                            <label for="google"><div id="google">Google+</div></label>
+                        </div>
+                    </div>
+                    <!--                CONTACT SECTION-->
+                    <div id='contactBox'>
+                     <div class="row">
+                        <div class='col-xs-6' id='contact'>
+                            <img src="Assets/contacts.png">
+                        </div>
+                        <div class='col-xs-6' id='contact'>
+                            <img src="Assets/customers.png">
+                        </div>
+                      </div>
+                    </div>
+<!--                    Did you know Section-->
+                    <div class="row=" id='slide'>
+                        <div id="blueBox">
+                          <a href="#" id='leftArrow'><img src='Assets/back-arrow.png'></a>
+                          <a href="#" id='rightArrow'><img src='Assets/next-arrow.png'></a>
+                          <div id="did">
+                            <p>DID YOU KNOW?</p>
+                            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class='container'>
+                        <div class='row' id='blueFooterBox'>
+                            <div class='col-xs-12' id='blueFooter'>
+                                <div class='col-xs-4 box1' id='whiteBox'>
+                                </div>
+                                <div class='col-xs-4 box2' id='whiteBox'>
+                                    <img src="Assets/Group%202.png">
+                                </div>
+                                <div class='col-xs-4 box3' id='whiteBox'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                 </div>
+            <!--              FOOTER-->
+            <div class="container-fluid">
+                 <div id='footerBox'> 
+                    <div class='row footer'>
+                        <div class='col-xs-3' id="footer1">
+                            <a><p>Tutorials  |  Support  |  Blog</p></a>
+                        </div>
+                        <div class='col-xs-6' id="footer2">
+                            <p><span><span style="color:#2498f4; font-weight: bold">Ariel Winter</span> likes your <span style="color:#2498f4; font-weight: bold">Win A Cooper Sweepstakes</span> Promotion</p>
+                            <span style="text-align:right"><img src="Assets/up-arrow-blue.png"></span></span>
+                        </div>
+                        <div class='col-xs-1' id="footer3">
+                            <img src="Assets/user-avatar.png">
+                            <a href='#' style="font-weight:bold">Logout</a>
+                        </div>
+                     <div class='col-xs-1' id="footer3">
+                         <img src="Assets/social-icons.png" style="height:15px; margin-top: 25px">
+                        </div>
+                     <div class='col-xs-1' id="footer3">
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            </div>
+        </div>           
+
+    
+    
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
